@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="calc-wrapper">
+            <div class="calc-container">
+                <div class="calc-header">
+                    <input type="text" placeholder="0" readonly>
+                </div>
+                <div class="calc-main">
+                    <div class="calc-btn1">
+                        <button class="full-clean">C</button>
+                        <button value="/">/</button>
+                        <button value="*">x</button>
+                        <button class="clean-one"><i class="fa-solid fa-delete-left"></i></button>
+                    </div>
+                    <div class="calc-btn2">
+                        <button value="7">7</button>
+                        <button value="8">8</button>
+                        <button value="9">9</button>
+                        <button value="-">-</button>
+                    </div>
+                    <div class="calc-btn3">
+                        <button value="4">4</button>
+                        <button value="5">5</button>
+                        <button value="6">6</button>
+                        <button value="+">+</button>
+                    </div>
+                    <div class="calc-btn4">
+                        <button value="1">1</button>
+                        <button value="2">2</button>
+                        <button value="3">3</button>
+                        <button class="equal" value="=">=</button>
+                    </div>
+                    <div class="calc-btn5">
+                        <button class="zero" value="0">0</button>
+                        <button class="dot" value=".">.</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
